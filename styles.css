@@ -26,7 +26,7 @@ html::-webkit-scrollbar-thumb{
 } */
 
 body{
-    background: #d3d3d3;
+    background: #f2f2f2;
     color: var(--text-color);
 }
 header{

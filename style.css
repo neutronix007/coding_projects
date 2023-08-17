@@ -14,49 +14,39 @@ body {
     background: #f2f2f2;
 }
 
-.container {
-    width: 20%;
-    height: 60%;
-    grid-template-columns: 100%;
-    grid-template-areas: "login";
-    box-shadow: 0 0 17px 10px rgb(0 0 0 / 10%);
-    border-radius: 10px;
-    background: white;
-    overflow: hidden;
-}
+
 
 .logo-image {
     height: auto;
     width: auto;
     max-width: 120px;
     max-height: 120px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 10px;
 }
 
 .login {
-    grid-area: login;
+    width: 35vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
     background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 17px 10px rgb(0 0 0 / 3%);
 }
 
-.login h3.title {
-    margin-top: 50px;
-    font-size: 30px;
-}
+
 
 .text-input {
     height: 40px;
     display: flex;
     width: 70%;
-    align-items: center;
     border-bottom: 2px solid #ececec;
     padding: 0 15px;
-    margin: 10px 0;
+    margin: 15px 0;
+
 }
 
 .text-input input {
@@ -66,9 +56,7 @@ body {
     width: 100%;
     height: 100%;
     margin-left: -13px;
-}
-
-.text-input i {
+    font-size: 14px;
     color: #9a9a9a;
 }
 
@@ -76,6 +64,9 @@ body {
     color: #9a9a9a;
 }
 
+.login-btn:hover{
+    text-decoration: underline;
+}
 .login-btn {
     width: 80%;
     height: 50px;
@@ -87,10 +78,11 @@ body {
     cursor: pointer;
     margin-top: 25px;
     margin-bottom: 60px;
+    font-weight: 700;
 }
 
 a {
-    font-size: 12px;
+    font-size: 16px;
     color: #9a9a9a;
     cursor: pointer;
     user-select: none;
@@ -107,6 +99,17 @@ a.forgot {
     text-align: center;
     align-items: center;
     align-content: center;
-
+    font-size: 16px;
+    color: #9a9a9a;
 }
+.signup a {
+    color: #3FC6FB;
+}
+.signup a:hover {
+    text-decoration: underline;
+}
+
+
+
+
 
